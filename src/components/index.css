@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+body {
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.flip-card {
+  background-color: #B415FF;
+  /* width: 30rem; */
+  height: 30rem;
+  perspective: 1000px;
+  
+  /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Flip the card when you hover */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* Hide back side when facing front */
+  border-radius: 10px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: 24px;
+  color: white;
+}
+
+.flip-card-front {
+  /* background-color: #2980b9; */
+}
+
+.flip-card-back {
+  background-color: grey;
+  transform: rotateY(180deg);
+}
