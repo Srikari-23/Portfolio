@@ -25,7 +25,7 @@ const Projects = () => {
         <div id="projects" className="min-h-screen pt-[90px] pb-20 px-6 md:px-12">
             <div className="flex flex-col lg:flex-row items-center justify-center mb-12 gap-6">
                 <img src={Project_Logo} alt="Projects" className="w-40 sm:w-56 lg:w-1/4 rounded-lg" />
-                <h1 className="text-4xl md:text-5xl font-bold text-center lg:text-left">My Projects</h1>
+                <h1 className="text-3xl md:text-5xl font-bold text-center lg:text-left">My Projects</h1>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

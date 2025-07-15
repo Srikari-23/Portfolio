@@ -1,27 +1,22 @@
 
 import './App.css'
 import About from './components/About'
+import Contact from './components/Contact';
+import Experience from './components/Experience';
 import Navbar from './components/Navbar'
 import Profile from './components/Profile';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Projects from './components/Projects';
 function App() {
-  const routes = createBrowserRouter([{
-    path: '/',
-    element: <Profile />
-  },
-  {
-    path:"/aboutMe",
-    element:<About/>
-  }])
+
   return (
     <>
 
       <Navbar />
-      <Profile/>
-      <About/>
-      <Projects/>
-      {/* <RouterProvider router={routes}></RouterProvider> */}
+      <Profile />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
     </>
   )
 }

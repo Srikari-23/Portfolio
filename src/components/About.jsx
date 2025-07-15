@@ -3,7 +3,7 @@ import Profile_Photo from './../assets/Profile.JPG';
 const About = () => {
   return (
     <div id="about" className="min-h-screen flex flex-col items-center px-6 md:px-12 py-12 pt-[90px]">
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">About Me</h1>
+      <h1 className="text-3xl md:text-5xl font-bold text-center mb-10">About Me</h1>
 
       {/* Optional Profile Image */}
       {/* <img src={Profile_Photo} alt="Profile" className="w-40 md:w-52 rounded-lg mb-8" /> */}

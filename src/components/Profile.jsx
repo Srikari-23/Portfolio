@@ -19,9 +19,9 @@ const Profile = () => {
 
                 {/* Buttons */}
                 <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-6">
-                    <button className="py-2 px-6 rounded-full bg-gradient-to-bl from-violet-500 to-fuchsia-500 hover:scale-105 transform-gpu duration-300 text-white">
+                    <a href="#contact" className="py-2 px-6 rounded-full bg-gradient-to-bl from-violet-500 to-fuchsia-500 hover:scale-105 transform-gpu duration-300 text-white">
                         Connect with me
-                    </button>
+                    </a>
                     <a
                         href="/Shree_Resume.pdf"
                         download
@@ -37,7 +37,7 @@ const Profile = () => {
                 <img
                     src={ProfileLogo}
                     alt="Profile"
-                    className="w-48 sm:w-60 md:w-72 rounded-xl shadow-lg"
+                    className="w-48 sm:w-60  rounded-xl shadow-lg"
                 />
             </div>
         </div>

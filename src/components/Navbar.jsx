@@ -11,8 +11,9 @@ const Navbar = () => {
                 <ul className="hidden lg:flex  gap-10">
                     <li className="hover:text-fuchsia-500"><a href="#home">Home</a></li>
                     <li className="hover:text-fuchsia-500"><a href="#about">About Me</a></li>
-                    <li className="hover:text-fuchsia-500"><a href="#home">Experience</a></li>
+                    <li className="hover:text-fuchsia-500"><a href="#experience">Experience</a></li>
                     <li className="hover:text-fuchsia-500"><a href="#projects">Projects</a></li>
+                    <li className="hover:text-fuchsia-500"><a href="#contact">Contact</a></li>
                 </ul>
                 {/* Mobile Menu Toggle */}
                 <button className="lg:hidden" onClick={() => setMenuOpen(!menuOpen)}>
