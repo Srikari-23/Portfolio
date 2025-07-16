@@ -12,7 +12,7 @@ const Profile = () => {
                 <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#DF8908] to-[#B415FF] py-4">
                     I'm Srikari Bodugam
                 </h1>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4">Web Developer</h2>
+                <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4">Frontend Developer</h2>
                 <p className="text-base md:text-lg lg:text-lg max-w-xl mx-auto lg:mx-0">
                     Engineer and passionate Front End Developer with 3+ years of experience writing clean and standard code in JavaScript using modern frameworks like React, SAPUI5, and SAP Fiori.
                 </p>

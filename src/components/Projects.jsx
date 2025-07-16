@@ -1,12 +1,14 @@
 import Project_Logo from './../assets/Projects.jpg';
-import ProjectCard from './ProjectCard1';
+import ProjectCard from './ProjectCard';
 import { useState } from 'react';
-import IPM_LOGO from './../assets/IPM-Cover-Page.jpg'
+import IPM_LOGO from './../assets/IPM-Cover-Page.jpg';
+import Melody_LOGO from './../assets/Melody.jpg';
+import IDM_LOGO from './../assets/IDM.jpg';
 const Projects = () => {
     const [projects, setProjects] = useState([{
         name: "Intelligent Decision Management",
-        skills: ["React.js", "Javascript", "Azure Package Management", "Config-driven UI"],
-        background_image: IPM_LOGO,
+        skills: ["React.js", "Javascript", "Azure Package Management", "CI/CD Pipelines"],
+        background_image: IDM_LOGO,
         description: "Developed a reusable React library for rule modeling and simulation, integrated with drag-and-drop features to streamline complex configurations. Delivered a standalone app enhancing efficiency in rule management across multiple projects."
     },
     {
@@ -18,7 +20,7 @@ const Projects = () => {
     {
         name: "Melody - Pre Sales",
         skills: ["SAP UI5", "SAP Web IDE", "BAS", "Custom Controls", "Custom Library"],
-        background_image: IPM_LOGO,
+        background_image: Melody_LOGO,
         description: "Built an SAP UI5 application to optimize pre-sales workflows. Led development of the activity registration module, enabling efficient logging and tracking of consultant engagements."
     }])
     return (

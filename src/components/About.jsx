@@ -5,9 +5,6 @@ const About = () => {
     <div id="about" className="min-h-screen flex flex-col items-center px-6 md:px-12 py-12 pt-[90px]">
       <h1 className="text-3xl md:text-5xl font-bold text-center mb-10">About Me</h1>
 
-      {/* Optional Profile Image */}
-      {/* <img src={Profile_Photo} alt="Profile" className="w-40 md:w-52 rounded-lg mb-8" /> */}
-
       <div className="w-full max-w-4xl">
         <p className="text-base md:text-lg mb-10 text-center md:text-left">
           A passionate web developer with a creative flair and a knack for turning visions into reality. My journey in web development began with a fascination for coding and design, and it has evolved into a career where I blend aesthetics with functionality. With a focus on user experience and a commitment to staying updated with the latest industry trends, I'm dedicated to creating web solutions that not only meet but exceed expectations.
