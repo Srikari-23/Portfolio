@@ -14,7 +14,7 @@ const Profile = () => {
                 </h1>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4">Frontend Developer</h2>
                 <p className="text-base md:text-lg lg:text-lg max-w-xl mx-auto lg:mx-0">
-                    Engineer and passionate Front End Developer with 3+ years of experience writing clean and standard code in JavaScript using modern frameworks like React, SAPUI5, and SAP Fiori.
+                    Passionate Front End Developer with 4 years of experience writing clean and standard code in JavaScript using modern frameworks like React, SAPUI5, and SAP Fiori.
                 </p>
 
                 {/* Buttons */}
